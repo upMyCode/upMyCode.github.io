@@ -4,14 +4,14 @@
 }
 
 #nav__bar{
-    margin-top: 100px;
+    margin-top: 20px;
 }
 .text__item{
     font-size: 22px;
     margin: 0;
     color: white;
 }
-.text__item-2{
+#text__item-2{
     margin: 0;
     font-size: 22px;
     padding: 0 20px;
@@ -28,7 +28,7 @@
 }
 
 .about__me-main{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .text__main-item-2{
@@ -41,4 +41,3 @@
 .me__photo{
     max-width: 100%;
 }
-

@@ -11,13 +11,13 @@
     margin: 0;
     color: white;
 }
+
 #text__item-2{
     margin: 0;
-    font-size: 22px;
-    padding: 0 20px;
+    font-size: 20px;
     color:white;
-    font-family: "Helvetica",sans-serif;
-    font-weight: 500;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
 }
 
 .text__main-item{
@@ -38,6 +38,15 @@
     font-size: 24px;
 }
 
+#main__next{
+    margin-top: 200px;
+}
+
 .me__photo{
     max-width: 100%;
+}
+
+#social{
+    width: 100%;
+    max-width: 75px;
 }

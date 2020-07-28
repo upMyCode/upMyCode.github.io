@@ -1,4 +1,5 @@
-.about__me-inner{
+.about__me-inner,
+.knowledge__intro{
     background-color: #4A32B9;
     width: 100%;
 }
@@ -44,9 +45,14 @@
 
 .me__photo{
     max-width: 100%;
+    min-width: 300px;
 }
 
 #social{
     width: 100%;
     max-width: 75px;
+}
+
+.hobby{
+    margin: 100px 0;
 }

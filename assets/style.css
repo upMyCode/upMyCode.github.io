@@ -54,5 +54,45 @@
 }
 
 .hobby{
-    margin: 100px 0;
+    padding: 100px 0;
+}
+
+.knowledge__intro{
+    padding: 100px 0;
+}
+
+#knowledge__text-item{
+    color:white;
+    font-family: "Helvetica",sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+#knowledge__text-item-2{
+    color:white;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#knowledge__text-item-3{
+    color:white;
+    font-family: "Roboto",sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.knowledge__main{
+    padding: 100px 0;
+}
+
+
+.prog__skill{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skill__item{
+    margin: 30px 0;
 }

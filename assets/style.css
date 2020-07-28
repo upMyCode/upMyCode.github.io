@@ -102,3 +102,66 @@
     justify-content: start;
     margin-top: 100px;
 }
+
+.portfolio{
+    background-color: #2A2543;
+    padding: 100px 0;
+}
+
+#portfolio__text-item{
+    font-size: 68px;
+    font-family: "Open Sans" sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+#portfolio__text-item-2{
+    font-size: 48px;
+    font-family: "Open Sans" sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 50px;
+}
+
+.portfolio__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__item-2{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0;
+}
+
+#portfolio__item-2-img{
+    margin-top: 40px;
+}
+
+.portfolio__big-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__item-3{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__information{
+    padding-top: 200px;
+}
+
+.contact__me{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.contact__me-item-2{
+    display: flex;
+    justify-content: space-between;
+}

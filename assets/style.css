@@ -4,9 +4,11 @@
     width: 100%;
 }
 
-#nav__bar{
+#nav__bar-item,
+#nav__bar-item-2 {
     margin-top: 20px;
 }
+
 .text__item{
     font-size: 22px;
     margin: 0;
@@ -216,3 +218,39 @@
         font-size: 34px;
     }  
 }
+
+
+@media (max-width: 575.98px) {
+    #nav__bar-item-2 {
+        visibility: hidden;
+    }
+    .text__main-item{
+        font-size: 32px;
+    }
+    .text__main-item-2{
+        font-size: 14px;
+    }
+    #main__next{
+        padding: 0;
+    }
+    .about__me-main{
+        margin-top: 20px
+    }
+
+    .img-fluid{
+        padding-top: 80px;
+    }
+    #main__next{
+        margin-top: 50px;
+    }
+    #knowledge__text-item{
+        font-size: 32px;
+    }
+    #knowledge__text-item-2{
+        font-size: 24px;
+    }
+
+    #social{
+        visibility: hidden;
+    }
+ }

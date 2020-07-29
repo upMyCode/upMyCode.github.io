@@ -116,7 +116,7 @@
 }
 
 #portfolio__text-item-2{
-    font-size: 48px;
+    font-size: 40px;
     font-family: "Open Sans" sans-serif;
     font-weight: 400;
     color: white;
@@ -164,4 +164,16 @@
 .contact__me-item-2{
     display: flex;
     justify-content: space-between;
+    margin: 20px 0;
+}
+
+.contact__item{
+    color: #908888;
+    font-size: 16px;
+}
+
+.contact__mail{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
 }

@@ -28,6 +28,12 @@
     font-size: 72px;
 }
 
+
+
+
+ 
+
+
 .about__me-main{
     margin-top: 100px;
 }
@@ -42,6 +48,8 @@
 #main__next{
     margin-top: 200px;
 }
+
+
 
 .me__photo{
     max-width: 100%;
@@ -176,4 +184,35 @@
     text-decoration: none;
     color: #000;
     font-size: 16px;
+}
+
+
+@media (max-width: 1150px) {
+    .text__main-item{
+        font-size: 54px;
+    }
+    .text__main-item-2{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768.98px) {
+    #main__next{
+        margin-top: 100px;
+    }
+    .text__main-item{
+        font-size: 46px;
+    }
+    .text__main-item-2{
+        font-size: 20px;
+    }
+    #knowledge__text-item{
+        font-size: 46px;
+    }
+    #portfolio__text-item{
+        font-size: 46px;
+    } 
+    #portfolio__text-item-2{
+        font-size: 34px;
+    }  
 }

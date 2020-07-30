@@ -253,4 +253,16 @@
     #social{
         visibility: hidden;
     }
+    .contact__me-item-2{
+        flex-direction: column;
+    }
+
+    .contact__text-item{
+        font-size: 32px;
+    }
+
+    #intro__text-bottom{
+        margin-top: 100px;
+    }
+
  }

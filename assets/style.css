@@ -30,11 +30,23 @@
     font-size: 72px;
 }
 
+.onTop__container{
+   width: 60px;
+   position: fixed;
+   left: 2%;
+   top: 88%;
+   z-index: 20;
+   opacity: 0.6;
+}
 
+.onTop__container:hover{
+    opacity: 1;
+}
 
-
- 
-
+.onTop{
+   width: 100%;
+   display: block;
+}
 
 .about__me-main{
     margin-top: 100px;
@@ -111,6 +123,12 @@
     display: flex;
     justify-content: start;
     margin-top: 100px;
+}
+
+#dark__item{
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: 0.2s;
 }
 
 .portfolio{
@@ -199,6 +217,9 @@
 }
 
 @media (max-width: 768.98px) {
+    .onTop__container{
+        top: 45%;
+    }
     #main__next{
         margin-top: 100px;
     }
@@ -221,6 +242,10 @@
 
 
 @media (max-width: 575.98px) {
+    .onTop__container{
+        top: 76%;
+    }
+    
     #nav__bar-item-2 {
         visibility: hidden;
     }

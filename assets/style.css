@@ -8,6 +8,10 @@
 #nav__bar-item-2 {
     margin-top: 20px;
 }
+#eclipse{
+    opacity: 0;
+}
+
 
 .text__item{
     font-size: 22px;

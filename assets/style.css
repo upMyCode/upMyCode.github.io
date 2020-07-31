@@ -8,10 +8,21 @@
 #nav__bar-item-2 {
     margin-top: 20px;
 }
-#eclipse{
+#eclipse,
+#eclipse__item-2,
+#eclipse__item-3,
+#eclipse__item-4,
+#eclipse__item-5{
     opacity: 0;
 }
 
+#nav__item,
+#nav__item-2,
+#nav__item-3,
+#nav__item-4,
+#nav__item-5{
+    cursor: pointer;
+}
 
 .text__item{
     font-size: 22px;
@@ -251,8 +262,9 @@
     }
     
     #nav__bar-item-2 {
-        visibility: hidden;
+        display:  none !important;
     }
+    
     .text__main-item{
         font-size: 32px;
     }

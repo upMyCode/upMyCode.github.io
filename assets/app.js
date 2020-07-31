@@ -3,7 +3,6 @@
         const cards = document.querySelectorAll('#dark__item');
     
     
-    
         for (let i = 0; i < cards.length; i++) {
             const card = cards[i];
             card.addEventListener('mousemove', rotate);
@@ -21,76 +20,51 @@
         }
 
         window.onscroll = function disappear() {
-            const header = document.querySelector('header');
-            if (window.pageYOffset <= 100) {
-                onTop.style.visibility = 'hidden';
-            }
-            if (window.pageYOffset >= 200) {
-                header.classList.add('headerScroll');
-                onTop.style.visibility = 'visible';
-    
-            }
-            if (this.pageYOffset >= 485) {
-                preview = document.querySelector('.main__container-about-preview');
-                preview.style.animation = 'fade-in 2s ease';
+            console.log(this.pageYOffset);
+            if (this.pageYOffset >= 300) {
+                hobby = document.querySelector('.hobby');
+                hobby.style.animation = 'fade-in 4s ease';
     
                 function appear() {
-                    preview.style.opacity = '1';
+                    hobby.style.opacity = '1';
                 }
             }
-            if (this.pageYOffset >= 580) {
-                preview = document.querySelector('.preview__img-under-text');
-                preview.style.animation = 'fade-in 2s ease';
+            if (this.pageYOffset >= 800) {
+                knowledgeIntro = document.querySelector('.knowledge__intro');
+                knowledgeIntro.style.animation = 'fade-in 4s ease';
     
                 function appear() {
-                    preview.style.opacity = '1';
+                    knowledgeIntro.style.opacity = '1';
                 }
             }
-            if (this.pageYOffset >= 1392) {
-                preview = document.querySelector('.main__container-about');
-                preview.style.animation = 'fade-in 2s ease';
+            if (this.pageYOffset >= 1100) {
+                knowledgeMain = document.querySelector('.knowledge__main');
+                knowledgeMain.style.animation = 'fade-in 4s ease';
     
                 function appear() {
-                    preview.style.opacity = '1';
+                    knowledgeMain.style.opacity = '1';
                 }
             }
     
     
-            if (this.pageYOffset >= 2402) {
-                preview = document.querySelector('.main__skill');
-                preview.style.animation = 'fade-in 2s ease';
+            if (this.pageYOffset >= 3000) {
+                portfolio = document.querySelector('.portfolio');
+                portfolio.style.animation = 'fade-in 4s ease';
     
                 function appear() {
-                    preview.style.opacity = '1';
+                    portfolio.style.opacity = '1';
                 }
             }
-            if (this.pageYOffset >= 2602) {
-                preview = document.querySelector('.personal__skill');
-                preview.style.animation = 'fade-in 2s ease';
+            if (this.pageYOffset >= 4900) {
+                contactInformation = document.querySelector('.contact__information');
+                contactInformation.style.animation = 'fade-in 4s ease';
     
                 function appear() {
-                    preview.style.opacity = '1';
+                    contactInformation.style.opacity = '1';
                 }
             }
-            if (this.pageYOffset >= 4030) {
-                preview = document.querySelector('.img__after-skill');
-                preview.style.animation = 'fade-in 2s ease';
-    
-                function appear() {
-                    preview.style.opacity = '1';
-                }
-            }
-            if (this.pageYOffset >= 5000) {
-                preview = document.querySelector('.main__hobby');
-                preview.style.animation = 'fade-in 2s ease';
-    
-                function appear() {
-                    preview.style.opacity = '1';
-                }
-            }
-    
+
             setTimeout(disappear);
-            setTimeout(appear);
     
         };
     

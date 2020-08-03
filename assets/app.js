@@ -134,6 +134,9 @@
         eclipse5.style.opacity = '0';
     }
 
-
+    $('.header__burger').click(function(event) {
+        $('.header__burger').toggleClass('active');
+        $('.header__menu').toggleClass('active');
+    });
 
  });

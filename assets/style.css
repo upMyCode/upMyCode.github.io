@@ -228,6 +228,25 @@
     display: none;
     background-color: #F86D09;
 }
+.header__list{
+    list-style: none;
+    font-size: 24px;
+    font-family: "Open Sans" sans-serif;
+    font-weight: 900;
+    margin-top: 50px;
+
+}
+
+.header__link{
+    color: #000;
+}
+
+li{
+    margin: 20px 0;
+}
+.header__link:hover{
+    text-decoration: none;
+}
 
 
 
@@ -262,32 +281,6 @@
     #portfolio__text-item-2{
         font-size: 34px;
     }  
-}
-
-.header__list{
-    list-style: none;
-    font-size: 24px;
-    font-family: "Open Sans" sans-serif;
-    font-weight: 900;
-    margin-top: 50px;
-
-}
-
-.header__link{
-    color: #000;
-}
-
-li{
-    margin: 20px 0;
-}
-.header__link:hover{
-    text-decoration: none;
-}
-
-@media (max-width: 575.98px) {
-    .onTop__container{
-        top: 76%;
-    }
     .header__menu.active{
         display: block;
         display: flex;
@@ -296,6 +289,7 @@ li{
     .burger{
         display: block;
         margin-right: 30px;
+        margin-top: 13px;
     }
     .header__burger{
         display: block;
@@ -345,6 +339,19 @@ li{
     #nav__bar-item-2 {
         display:  none !important;
     }
+}
+
+
+@media (max-width: 575.98px) {
+    .onTop__container{
+        top: 76%;
+    }
+
+    .text__item {
+        font-size: 16px;
+    }
+
+    
     
     .text__main-item{
         font-size: 32px;

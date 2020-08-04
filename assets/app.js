@@ -82,8 +82,6 @@
      const eclipse3 = document.querySelector('#eclipse__item-3');
      const navItem4 = document.querySelector('#nav__item-4');
      const eclipse4 = document.querySelector('#eclipse__item-4');
-     const navItem5 = document.querySelector('#nav__item-5');
-     const eclipse5 = document.querySelector('#eclipse__item-5');
 
      navItem.addEventListener('mousemove', eclipseAppear);
      navItem.addEventListener('mouseout', eclipseDisappear);
@@ -93,8 +91,6 @@
      navItem3.addEventListener('mouseout', eclipseDisappear3);
      navItem4.addEventListener('mousemove', eclipseAppear4);
      navItem4.addEventListener('mouseout', eclipseDisappear4);
-     navItem5.addEventListener('mousemove', eclipseAppear5);
-     navItem5.addEventListener('mouseout', eclipseDisappear5);
 
      function eclipseAppear(event) {
          eclipse.style.opacity = '1';

@@ -182,10 +182,7 @@
     margin-top: 50px;
 }
 
-.portfolio__item{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .portfolio__item-2{
     display: flex;
@@ -303,7 +300,8 @@ li{
     } 
     #portfolio__text-item-2{
         font-size: 34px;
-    }  
+    } 
+
     .header__menu.active{
         display: block;
         display: flex;
@@ -329,7 +327,7 @@ li{
         width: 100%;
         height: 2px;
         position: absolute;
-        transition: 0.5s;
+        transition: 0.8s;
     }
 
     .header__burger span{
@@ -368,6 +366,10 @@ li{
 @media (max-width: 575.98px) {
     .onTop__container{
         top: 76%;
+    }
+
+    .portfolio__img{
+        display: none !important;
     }
 
     .text__item {
@@ -422,11 +424,11 @@ li{
  }
 }
 
- @keyframes fade-in {
+ /* @keyframes fade-in {
      0%{
          opacity: 0;
      }
      100%{
          opacity: 1;
      }
- }
+ } */

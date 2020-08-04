@@ -75,7 +75,7 @@
      });
 
      const navItem = document.querySelector('#nav__item');
-     const eclipse = document.querySelector('#eclipse');
+     const eclipse = document.querySelector('#eclipse__item');
      const navItem2 = document.querySelector('#nav__item-2');
      const eclipse2 = document.querySelector('#eclipse__item-2');
      const navItem3 = document.querySelector('#nav__item-3');

@@ -8,19 +8,17 @@
 #nav__bar-item-2 {
     margin-top: 20px;
 }
-#eclipse,
+#eclipse__item,
 #eclipse__item-2,
 #eclipse__item-3,
-#eclipse__item-4,
-#eclipse__item-5{
+#eclipse__item-4{
     opacity: 0;
 }
 
 #nav__item,
 #nav__item-2,
 #nav__item-3,
-#nav__item-4,
-#nav__item-5{
+#nav__item-4{
     cursor: pointer;
 }
 

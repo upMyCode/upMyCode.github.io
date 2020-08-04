@@ -19,54 +19,6 @@
          }
      }
 
-    //  window.onscroll = function disappear() {
-    //      if (this.pageYOffset >= 200) {
-    //          hobby = document.querySelector('.hobby');
-    //          hobby.style.animation = 'fade-in 3s ease';
-
-    //          function appear() {
-    //              hobby.style.opacity = '1';
-    //          }
-    //      }
-    //      if (this.pageYOffset >= 900) {
-    //          knowledgeIntro = document.querySelector('.knowledge__intro');
-    //          knowledgeIntro.style.animation = 'fade-in 3s ease';
-
-    //          function appear() {
-    //              knowledgeIntro.style.opacity = '1';
-    //          }
-    //      }
-    //      if (this.pageYOffset >= 1800) {
-    //          knowledgeMain = document.querySelector('.knowledge__main');
-    //          knowledgeMain.style.animation = 'fade-in 3s ease';
-
-    //          function appear() {
-    //              knowledgeMain.style.opacity = '1';
-    //          }
-    //      }
-
-
-    //      if (this.pageYOffset >= 2800) {
-    //          portfolio = document.querySelector('.portfolio');
-    //          portfolio.style.animation = 'fade-in 3s ease';
-
-    //          function appear() {
-    //              portfolio.style.opacity = '1';
-    //          }
-    //      }
-    //      if (this.pageYOffset >= 4800) {
-    //          contactInformation = document.querySelector('.contact__information');
-    //          contactInformation.style.animation = 'fade-in 3s ease';
-
-    //          function appear() {
-    //              contactInformation.style.opacity = '1';
-    //          }
-    //      }
-
-    //      setTimeout(disappear);
-
-    //  };
-
      $('a[href^="#"]').click(function () {
          var target = $(this).attr('href');
          $('html,body').animate({
@@ -121,13 +73,6 @@
 
     function eclipseDisappear4(event) {
         eclipse4.style.opacity = '0';
-    }
-    function eclipseAppear5(event) {
-        eclipse5.style.opacity = '1';
-    }
-
-    function eclipseDisappear5(event) {
-        eclipse5.style.opacity = '0';
     }
 
     $('.header__burger').click(function(event) {
